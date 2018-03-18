@@ -15,6 +15,10 @@ d = D()
 q = Q()
 g = G()
 
+print(d)
+print(q)
+print(g)
+
 for i in [fe, d, q, g]:
   i.cuda()
   i.apply(weights_init)
